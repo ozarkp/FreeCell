@@ -29,9 +29,7 @@ Current changes accomplished for Project 7 submission as of Nov 22, 2013 at 1:22
 
 Currently the following tasks remain:
 <ul>
--<li>FreeCellGame needs to have an isOver method to distinguish whether the player has won/lost or if the game is ongoing</li>
--<li>Steps 5 and 6 need much work, especially PanelListener/mousePressed inside AbstractCellPanel</li>
--<li>Our AbstractCell needs work, as we are supposed to refactor it by including the transfer method in the abstract (right now it is
-still defined in each cell class too), and we need to add a boolean canTransferFrom which can be a helper method for some of
-the logic we have hard-codded into our transfer method</li>
+<li>FreeCellGame needs to have an isOver method to distinguish whether the player has won/lost or if the game is ongoing</li>
+<li>Steps 5 and 6 need much work, especially PanelListener/mousePressed inside AbstractCellPanel</li>
+<li>Our AbstractCell needs work, as we are supposed to refactor it by including the transfer method in the abstract (right now it is still defined in each cell class too), and we need to add a boolean canTransferFrom which can be a helper method for some of the logic we have hard-codded into our transfer method</li>
 </ul>
